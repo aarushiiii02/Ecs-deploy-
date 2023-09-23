@@ -1,0 +1,18 @@
+{
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "family": "nginx",
+    "containerDefinitions": [
+        {
+            "name": "nginx",
+            "image": "nginx:latest",
+            "essential": true
+        }
+    ],
+    "volumes": [],
+    "networkMode": "awsvpc",
+    "memory": "3 GB",
+    "cpu": "1 vCPU",
+    "executionRoleArn": 
+}
